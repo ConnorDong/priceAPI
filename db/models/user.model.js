@@ -30,7 +30,7 @@ const UserSchema = new mongoose.Schema({
 });
 // *** Instance methods ***
 // JWT Secret
-const jwtSecret = "1F228B298BC1028FEEC9A7665E3EC529F47A0ECA94A59DB1E00E16D6B50C2FBE";
+const jwtSecret = "SOMESECRETTOKEN";
 
 UserSchema.methods.toJSON = function () {
     const user = this;
